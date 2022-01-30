@@ -16,7 +16,7 @@ html {
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
-    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    
     background-repeat: no-repeat, no-repeat;
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
@@ -75,30 +75,7 @@ body {
 
     }
 
-    &-footer {
-        display: flex;
-        justify-content: space-evenly;
-
-        &-social {
-            text-align: center;
-
-            h3 {
-                margin-top: 2rem;
-                margin-bottom: 0.5rem;
-                font-size: 2rem;
-                color: var(--very-dark);
-            }
-
-            p {
-                margin-top: 0;
-                margin-bottom: 2rem;
-                letter-spacing: 1px;
-                color: var(--dark-gray);
-                font-weight: 700;
-                font-size: 1.2rem;
-            }
-        }
-    }
+   
 }
 
 
